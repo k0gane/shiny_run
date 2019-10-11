@@ -33,3 +33,14 @@ python run.py
 ```
 
 4.最後に0を入力すると時間、ファン数、平均獲得ファン数などが「status.txtに出力されます！！」
+
+注)60秒以上実行しないと
+
+```
+Traceback (most recent call last):
+  File "run.py", line 33, in <module>
+    zisoku = (total // minute) * 60
+ZeroDivisionError: integer division or modulo by zero
+```
+
+多分こんな感じのエラー出ると思うのでテストの際は1分以上図ってから入力するとよさそうです
