@@ -7,7 +7,7 @@
 2.ターミナル(windowsならコマンドプロンプト)で
 
 ```
-pip install datatime
+pip install pytz
 ```
 
 と入力し、datatimeライブラリを入れる
